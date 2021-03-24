@@ -8,21 +8,23 @@
 </head>
 
 <body>
-    <div class="eisenhower-matrix">
+    <section class="eisenhower-matrix">
         <img src="./assets/eisenhower-matrix.jpg">
-        <a class="more-info" 
-            href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?
+        <a class="more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?
         </a>
-    </div>
-    <div class="main-element">
-        <p id="add-item-section">
-            <label for="new-task">Add Item</label>
-            <input id="new-task" type="text">
-            <button>Add</button>
-        </p>
-        <h3>Todo</h3>
+    </section>
+    <section class="main-element">
+        <ul id="add-item-section">
+            <li>
+                <label class="section-name" for="new-task">Add Item</label>
+                <input id="new-task" type="text">
+                <button>Add</button>
+            </li>
+        </ul>
+        <h3 class="section-name">Todo</h3>
         <ul id="to-do-section">
-            <li><input type="checkbox">
+            <li>
+                <input type="checkbox">
                 <label class="task">Pay Bills</label>
                 <input class="input-text" type="text">
                 <button class="edit">Edit</button>
@@ -31,24 +33,22 @@
             <li class="edit-mode">
                 <input type="checkbox">
                 <label class="task">Go Shopping</label>
-                <input class="input-text"
-                       type="text" 
-                       value="Go Shopping" 
-                       class="task">
+                <input class="input-text" type="text" value="Go Shopping" class="task">
                 <button class="edit">Save</button>
                 <button class="delete"><img src="./assets/remove.svg"></button>
             </li>
         </ul>
-        <h3>Completed</h3>
+        <h3 class="section-name">Completed</h3>
         <ul id="completed-section">
-            <li><input type="checkbox" checked>
+            <li>
+                <input type="checkbox" checked>
                 <label class="task">See the Doctor</label>
                 <input class="input-text" type="text">
                 <button class="edit">Edit</button>
                 <button class="delete"><img src="./assets/remove.svg"></button>
             </li>
         </ul>
-    </div>
+    </section>
     <script src="./js/app.js"></script>
 </body>
 
