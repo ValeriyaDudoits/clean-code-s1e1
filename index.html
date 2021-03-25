@@ -9,25 +9,25 @@
 
 <body>
     <section class="eisenhower-matrix">
-        <img src="./assets/eisenhower-matrix.jpg" alt="Eisenhower matrix">
-        <a class="more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?
+        <img class="eisenhower-matrix__picture" src="./assets/eisenhower-matrix.jpg" alt="Eisenhower matrix">
+        <a class="eisenhower-matrix__more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?
         </a>
     </section>
+
     <section class="main-element">
-        <h3 class="section-name">Add Item</h3>
+        <label class="section-name" for="new-task">Add Item</label>
         <ul id="add-item-section">
             <li>
-                <!--<label class="section-name" for="new-task">Add Item</label>-->
-                <input id="new-task" type="text">
+                <input id="new-task" class="input-text" type="text">
                 <button>Add</button>
             </li>
         </ul>
-        <h3 class="section-name">Todo</h3>
+        <label class="section-name">Todo</label>
         <ul id="to-do-section">
             <li>
                 <input type="checkbox">
                 <label class="task">Pay Bills</label>
-                <input class="input-text" type="text">
+                <input class="input-text" class="task" type="text">
                 <button class="edit">Edit</button>
                 <button class="delete"><img src="./assets/remove.svg" alt="Delete"></button>
             </li>
@@ -42,12 +42,12 @@
                 <button class="delete"><img src="./assets/remove.svg" alt="Delete"></button>
             </li>
         </ul>
-        <h3 class="section-name">Completed</h3>
+        <label class="section-name">Completed</label>
         <ul id="completed-section">
             <li>
                 <input type="checkbox" checked>
                 <label class="task">See the Doctor</label>
-                <input class="input-text" type="text">
+                <input class="input-text" class="task" class="task"class="task" type="text">
                 <button class="edit">Edit</button>
                 <button class="delete"><img src="./assets/remove.svg" alt="Delete"></button>
             </li>
