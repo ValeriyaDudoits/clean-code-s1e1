@@ -1,61 +1,53 @@
 /* Basic Style */
-/* Ready */
+
 body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
 }
-/* Ready */
+
 .eisenhower-matrix {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-/* Ready */
+
 .eisenhower-matrix__picture {
     width: 100%;
 }
-/* Ready */
+
 .eisenhower-matrix__more-info {
     font-family: fantasy, cursive;
 }
-/* Ready */
-@media (max-width:768px) {
 
-    .eisenhower-matrix { 
-        text-align: center;
-    }
-
-}
-/* Ready */
 .main-element {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
-/* Ready */
+
 .task {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
 }
-/* Ready */
+
 ul {
     margin: 0;
     padding: 0px;
 }
-/* Ready */
+
 li {
     width: 100%;
     list-style: none;
 }
-/* Ready */
+
 input,
 button {
     outline: none;
 }
-/* Ready */
+
 button {
     background: none;
     border: 0px;
@@ -65,7 +57,7 @@ button {
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
-/* Ready */
+
 button:hover {
     color: #3a3a3a;
 }
@@ -119,6 +111,7 @@ button.delete img:hover {
 }
 
 /* Heading */
+
 .section-name {
     display: block;
     margin: 0 0 20px;
@@ -174,4 +167,13 @@ ul .edit-mode input[type=text] {
 
 ul .edit-mode label {
     display: none;
+}
+
+
+@media (max-width:768px) {
+
+    .eisenhower-matrix { 
+        text-align: center;
+    }
+
 }
